@@ -1,0 +1,22 @@
+{
+  "name": "embed_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape-embed": "tsx -r dotenv/config scripts/scrape-embed.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.10.0",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.26"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5",
+    "tsx": "^3.12.3"
+  },
+  "author": "Oguri",
+  "license": "ISC"
+}
